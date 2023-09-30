@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question9</title>
+    <style>
+        .dropdown{
+            position: relative;
+            top: 10px;
+            display: inline-block;
+
+        }
+        .dropdown-content{
+            position: absolute;
+            display: none;
+            background-color: #529ee0;
+            width: 200px;
+            max-height: 150px;
+            border: 1px solid black;
+            overflow-y: scroll;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown-option{
+            padding: 10px;
+            cursor: pointer;
+        }
+        .dropdown-option:hover{
+            background-color: #3bebeb;
+        }
+        span{
+            background-color: rgb(231, 46, 46);
+            padding: 10px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <span>Hover to view option</span>
+        <div class="dropdown-content">
+            <div class="dropdown-option">option-1</div>
+            <div class="dropdown-option">option-2</div>
+            <div class="dropdown-option">option-3</div>
+            <div class="dropdown-option">option-4</div>
+            <div class="dropdown-option">option-5</div>
+            <div class="dropdown-option">option-6</div>
+            <div class="dropdown-option">option-7</div>
+            <div class="dropdown-option">option-8</div>
+            <div class="dropdown-option">option-9</div>
+            <div class="dropdown-option">option-10</div>
+        </div>
+    </div>
+</body>
+</html>
